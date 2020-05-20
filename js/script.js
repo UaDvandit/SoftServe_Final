@@ -1,0 +1,38 @@
+$(document).ready(function(){
+    $('.slider').slick({
+        arrows:true,
+        adaptiveHeight:true,
+        slidesToShow:4,
+        slidesToScloll:4,
+        speed:1000,
+        infinite:true,
+        autoplay:true,
+        autoplaySpeed:1500,
+    });
+});
+
+$(document).ready(function(){
+    $('.slider_2').slick({
+        arrows:true,
+        adaptiveHeight:true,
+        slidesToShow:2,
+        slidesToScloll:1,
+        speed:1000,
+        infinite:true,
+        autoplay:true,
+        autoplaySpeed:1500,
+    });
+});
+
+$(document).ready(function(){
+    $('.slider_3').slick({
+        arrows:true,
+        adaptiveHeight:true,
+        slidesToShow:1,
+        slidesToScloll:1,
+        speed:1000,
+        infinite:true,
+        autoplay:true,
+        autoplaySpeed:1500,
+    });
+});
